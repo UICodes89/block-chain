@@ -1,0 +1,152 @@
+div#particles-js {
+    background: #040429;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+#stats{
+    display:none !important;
+}
+.login-box{
+    background: #fff;
+    width: 100%;
+    height: 100%;
+}
+.login-box h1{
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 30px;
+}
+.floationbox{
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    transform: translateX(40%);
+    color: #fff;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400);
+body {
+  font-family: 'Lato';
+}
+article {
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto; }
+
+  article .login h1{
+    color: #040429;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+    
+    article .login form {
+      padding: 2em; }
+
+
+
+      article .login form input {
+        width: 100%; 
+    }
+      
+      article .login form fieldset.styled-input {
+        position: relative;
+        }
+      article .login form fieldset.styled-input label {
+        color: #04032a;
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-size: 14px;
+        font-weight: 500;
+        -webkit-transition: all 0.15s ease-in-out;
+        -moz-transition: all 0.15s ease-in-out;
+        transition: all 0.15s ease-in-out;
+        pointer-events: none; }
+      article .login form fieldset.styled-input input[type="text"]:focus ~ label,
+      article .login form fieldset.styled-input input[type="text"]:valid ~ label {
+        top: -1.6rem;
+         position: absolute;
+        font-size: 1em;
+        -webkit-transition: all 0.15s ease-in-out;
+        -moz-transition: all 0.15s ease-in-out;
+        transition: all 0.15s ease-in-out; }
+
+
+  form fieldset {
+    border: none;
+     }
+    form fieldset label {
+      color: #04032a;
+      line-height: 1.8em;
+      font-size: 1em;
+      width: 100%;
+      display: block;
+      padding-left: 0;
+      font-weight: 500;
+      font-family: 'Cairo', sans-serif; }
+    form fieldset input[type="text"] {
+      margin-right: 0;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      -ms-appearance: none;
+      -o-appearance: none;
+      appearance: none;
+      -webkit-transition: all 0.2s ease-in-out;
+      -moz-transition: all 0.2s ease-in-out;
+      transition: all 0.2s ease-in-out;
+      border: none;
+      border-bottom: 1px solid #04032a;
+      padding: 0.3em 0.5em 0.2em 0.5em;
+      text-decoration: none;
+      outline: 0;
+      line-height: 1em;
+      margin: 0;
+      width: 100%;
+      font-size: 14px;
+      font-weight: 400;
+      color: #04032a;
+      background: transparent;
+      font-family: 'Cairo', sans-serif;
+     }
+
+      form fieldset input[type="text"]:focus {
+        border-bottom: #04032a 2px solid;
+      } 
+    fieldset.styled-input {
+        margin-bottom: 50px;
+    }
+    .register span, .register a{
+        font-size:14px;
+        color:#04032a;
+        font-family: 'Cairo', sans-serif;
+    }
+.register a{
+    color: #ff6d12;
+}
+.login-btn button{
+    background: #ffe115;
+    border: 0;
+    padding: 5px 35px;
+    border-radius: 0;
+    color: #04032a;
+    font-size: 14px;
+    font-family: 'Cairo', sans-serif;
+}
+.btn-wrapper button{
+    background: #ffe115;
+    border: 0;
+    padding: 5px 35px;
+    border-radius: 0;
+    color: #04032a;
+    font-size: 14px;
+    font-family: 'Cairo', sans-serif;
+    width:100%;
+}
+.btn-wrapper .col-9{
+    margin-left: 11%;
+}
+.admin .btn{
+    width: 87%;
+    margin-left: 9%;
+}
